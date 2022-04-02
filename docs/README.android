@@ -144,7 +144,7 @@ Make sure to pick a toolchain for your desired architecture.
 -----------------------------------------------------------------------------
 
    # cd $HOME
-   # git clone git://github.com/xbmc/xbmc.git kodi-android
+   # git clone https://github.com/xbmc/xbmc.git kodi-android
    # cd kodi-android
    # git submodule update --init addons/skin.re-touched
 

@@ -44,7 +44,7 @@ anymore.
 -----------------------------------------------------------------------------
 
  $ cd $HOME
- $ git clone git://github.com/xbmc/xbmc.git Kodi
+ $ git clone https://github.com/xbmc/xbmc.git Kodi
 
 -----------------------------------------------------------------------------
 3.0 Install XCODE

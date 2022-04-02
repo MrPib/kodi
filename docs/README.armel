@@ -137,7 +137,7 @@ If you dont succeed, or want to do it manually, follow the next step instead.
 
    $ sudo apt-get install git-core
    $ cd /scratchbox/users/<username>/home/<username>/
-   $ git clone git://github.com/xbmc/xbmc.git
+   $ git clone https://github.com/xbmc/xbmc.git
 
    
 -----------------------------------------------------------------------------

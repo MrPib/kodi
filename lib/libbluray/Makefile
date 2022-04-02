@@ -40,7 +40,7 @@ $(LIBBLURAY): libbluray/configure
 	make -C libbluray
 
 libbluray/configure:
-	if [ ! -d libbluray ]; then git clone git://git.videolan.org/libbluray.git; fi
+	if [ ! -d libbluray ]; then git clone https://git.videolan.org/libbluray.git; fi
 	cd  libbluray; ./bootstrap
 ifeq ($(OSTYPE),Darwin)
 	cd  libbluray; ./configure --prefix=$(prefix) --exec-prefix=$(prefix) CFLAGS="$(CFLAGS)" CPPFLAGS="$(CPPFLAGS)" LDFLAGS="$(LDFLAGS)"
